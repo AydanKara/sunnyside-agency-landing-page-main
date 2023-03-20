@@ -102,3 +102,65 @@ header {
 }
 /*! home end */
 
+/*! main-section start */
+.main-section {
+    width: 100%;
+    margin: auto;
+}
+.section-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 550px;
+}
+.section-item {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    padding: 125px 147px 125px 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.section-item .title {
+    font-size: 37px;
+    font-weight: 900;
+}
+.section-item .description {
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    color: hsl(232, 10%, 55%);
+}
+.section-item a {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.section-item span {
+    position: relative;
+    display: flex;
+    width: 145px;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: -8px;
+    opacity: 0.4;
+    z-index: -1;
+    transition: 0.4s ease all;
+}
+.section-item .yellow {
+    background-color: hsl(51, 100%, 49%);
+}
+.section-item .red {
+    background-color: hsl(7, 99%, 70%);
+}
+.section-item a:hover span {
+    opacity: 1;
+}
+.section-wrapper:first-child .section-item:nth-child(2) {
+    background-image: url(./images/desktop/image-transform.jpg);
+}
+.section-wrapper:nth-child(2) .section-item:nth-child(1) {
+    background-image: url(./images/desktop/image-stand-out.jpg);
+}
+/*! main-section end */
+
