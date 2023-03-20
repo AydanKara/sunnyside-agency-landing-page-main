@@ -8,7 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Fraunces', serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 body {
@@ -161,6 +161,33 @@ header {
 }
 .section-wrapper:nth-child(2) .section-item:nth-child(1) {
     background-image: url(./images/desktop/image-stand-out.jpg);
+}
+.section-wrapper:last-child .section-item-graphic {
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    color: hsl(167, 40%, 24%);
+}
+.section-wrapper:last-child .section-item-photography {
+    background-image: url(./images/desktop/image-photography.jpg);
+    color: hsl(198, 62%, 26%);
+
+}
+.section-graphic-photography {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    gap: 30px;
+    padding: 0 180px 55px 180px;
+}
+.section-graphic-photography p {
+    font-family: 'Barlow', sans-serif;
+}
+.section-graphic-photography h3 {
+    font-size: 28px;
 }
 /*! main-section end */
 
