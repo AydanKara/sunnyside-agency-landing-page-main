@@ -224,21 +224,25 @@ header {
     width: 100%;
     margin: auto;
 }
+
 .testimonials-title {
     text-align: center;
     margin-bottom: 60px;
 }
+
 .testimonials-title h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-weight: 900;
     color: hsl(210, 4%, 67%);
 }
+
 .testimonials-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
 }
+
 .testimonials-item {
     display: flex;
     flex-direction: column;
@@ -246,20 +250,24 @@ header {
     align-items: center;
     text-align: center;
 }
+
 .person-img {
     width: 50px;
     /* height: 50px; */
     /* object-fit: cover; */
     border-radius: 50%;
 }
+
 .testimonials-item .info {
     font-family: 'Barlow', sans-serif;
     margin: 50px 0;
     color: hsl(213, 9%, 39%);
 }
+
 .testimonials-item .name {
     font-weight: 900;
 }
+
 .testimonials-item .profession {
     font-family: 'Barlow', sans-serif;
     line-height: 32px;
