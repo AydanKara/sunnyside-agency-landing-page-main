@@ -53,10 +53,12 @@ header {
     margin: 0 7%;
     height: 90px;
 }
+
 .nav-list {
     display: flex;
     gap: 50px;
 }
+
 .nav-list li a {
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
@@ -64,6 +66,7 @@ header {
     color: hsl(0, 0%, 100%);
     transition: 0.4s ease all;
 }
+
 .nav-list li a:hover,
 .active {
     padding: 15px 25px;
@@ -84,6 +87,7 @@ header {
     background-position: center;
     margin-top: -90px;
 }
+
 .content {
     display: flex;
     flex-direction: column;
@@ -92,6 +96,7 @@ header {
     padding-top: 160px;
     text-align: center;
 }
+
 .content h1 {
     color: hsl(0, 0%, 100%);
     text-transform: uppercase;
@@ -100,6 +105,7 @@ header {
     letter-spacing: 7px;
     margin-bottom: 95px;
 }
+
 /*! home end */
 
 /*! main-section start */
@@ -107,11 +113,13 @@ header {
     width: 100%;
     margin: auto;
 }
+
 .section-wrapper {
     display: flex;
     flex-wrap: wrap;
     height: 550px;
 }
+
 .section-item {
     flex: 1;
     background-size: cover;
@@ -121,10 +129,12 @@ header {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .section-item .title {
     font-size: 37px;
     font-weight: 900;
 }
+
 .section-item .description {
     font-family: 'Barlow', sans-serif;
     font-size: 16px;
@@ -132,10 +142,12 @@ header {
     line-height: 25px;
     color: hsl(232, 10%, 55%);
 }
+
 .section-item a {
     text-transform: uppercase;
     font-weight: 900;
 }
+
 .section-item span {
     position: relative;
     display: flex;
@@ -147,30 +159,38 @@ header {
     z-index: -1;
     transition: 0.4s ease all;
 }
+
 .section-item .yellow {
     background-color: hsl(51, 100%, 49%);
 }
+
 .section-item .red {
     background-color: hsl(7, 99%, 70%);
 }
+
 .section-item a:hover span {
     opacity: 1;
 }
+
 .section-wrapper:first-child .section-item:nth-child(2) {
     background-image: url(./images/desktop/image-transform.jpg);
 }
+
 .section-wrapper:nth-child(2) .section-item:nth-child(1) {
     background-image: url(./images/desktop/image-stand-out.jpg);
 }
+
 .section-wrapper:last-child .section-item-graphic {
     background-image: url(./images/desktop/image-graphic-design.jpg);
     color: hsl(167, 40%, 24%);
 }
+
 .section-wrapper:last-child .section-item-photography {
     background-image: url(./images/desktop/image-photography.jpg);
     color: hsl(198, 62%, 26%);
 
 }
+
 .section-graphic-photography {
     flex: 1;
     background-size: cover;
@@ -183,22 +203,26 @@ header {
     gap: 30px;
     padding: 0 180px 55px 180px;
 }
+
 .section-graphic-photography p {
     font-family: 'Barlow', sans-serif;
 }
+
 .section-graphic-photography h3 {
     font-size: 28px;
 }
+
 /*! main-section end */
 
 /*! section-testimonials start */
 .testimonials {
     margin: 100px 0;
 }
+
 .testimonials-container {
     max-width: 1200px;
     width: 100%;
     margin: auto;
 }
-/*! section-testimonials end */
 
+/*! section-testimonials end */
