@@ -276,3 +276,15 @@ header {
 }
 
 /*! section-testimonials end */
+
+/*! section-gallery start */
+.gallery {
+    width: 100%;
+}
+.gallery-container {
+    display: flex;
+}
+.gallery-container img {
+    width: 25%;
+}
+/*! section-gallery end */
