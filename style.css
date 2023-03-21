@@ -191,3 +191,14 @@ header {
 }
 /*! main-section end */
 
+/*! section-testimonials start */
+.testimonials {
+    margin: 100px 0;
+}
+.testimonials-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+/*! section-testimonials end */
+
