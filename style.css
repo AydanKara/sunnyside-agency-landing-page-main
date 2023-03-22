@@ -201,11 +201,12 @@ header {
     justify-content: flex-end;
     text-align: center;
     gap: 30px;
-    padding: 0 180px 55px 180px;
+    padding-bottom: 60px;
 }
 
 .section-graphic-photography p {
     font-family: 'Barlow', sans-serif;
+    width: 360px;
 }
 
 .section-graphic-photography h3 {
