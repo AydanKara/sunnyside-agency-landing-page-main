@@ -288,3 +288,33 @@ header {
     width: 25%;
 }
 /*! section-gallery end */
+
+/*! footer start */
+footer {
+    background-color: hsl(168, 66%, 70%);
+}
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.footer-nav-list {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.footer-nav-list li a{
+    font-family: 'Barlow', sans-serif;
+    color: hsl(168, 34%, 41%);
+    font-size: 14px;
+}
+.footer-social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+/*! footer end */
