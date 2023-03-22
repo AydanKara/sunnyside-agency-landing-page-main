@@ -300,6 +300,9 @@ footer {
     align-items: center;
     padding: 50px 0;
 }
+.footer-logo img {
+    filter: invert(64%) sepia(9%) saturate(2813%) hue-rotate(118deg) brightness(94%) contrast(79%);
+}
 .footer-nav-list {
     display: flex;
     gap: 30px;
