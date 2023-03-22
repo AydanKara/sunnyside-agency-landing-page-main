@@ -359,4 +359,16 @@ footer {
     }
 }
 
+@media (max-width: 768px) {
+    .section-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 900px;
+    }
+    .section-wrapper.column-reverse {
+        flex-direction: column-reverse;
+    }
+}
+
 /*! responsive end */
