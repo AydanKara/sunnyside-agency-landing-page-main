@@ -369,6 +369,22 @@ footer {
     .section-wrapper.column-reverse {
         flex-direction: column-reverse;
     }
+    .item-wrapper {
+        width: 450px;
+        gap: 20px;
+    }
+
+    .section-item .title {
+        font-size: 45px;
+    }
+
+    .section-item .description {
+        font-size: 23px;
+        line-height: 34px;
+    }
+    .section-item a {
+        font-size: 20px;
+    }
 }
 
 /*! responsive end */
