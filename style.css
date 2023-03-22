@@ -124,10 +124,17 @@ header {
     flex: 1;
     background-size: cover;
     background-position: center;
-    padding: 125px 147px 125px 160px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-wrapper {
+    width: 405px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .section-item .title {
@@ -137,7 +144,6 @@ header {
 
 .section-item .description {
     font-family: 'Barlow', sans-serif;
-    font-size: 16px;
     font-weight: 600;
     line-height: 25px;
     color: hsl(232, 10%, 55%);
@@ -151,7 +157,7 @@ header {
 .section-item span {
     position: relative;
     display: flex;
-    width: 145px;
+    width: 130px;
     height: 10px;
     border-radius: 5px;
     margin-top: -8px;
@@ -282,18 +288,22 @@ header {
 .gallery {
     width: 100%;
 }
+
 .gallery-container {
     display: flex;
 }
+
 .gallery-container img {
     width: 25%;
 }
+
 /*! section-gallery end */
 
 /*! footer start */
 footer {
     background-color: hsl(168, 66%, 70%);
 }
+
 .footer-container {
     display: flex;
     flex-direction: column;
@@ -301,24 +311,52 @@ footer {
     align-items: center;
     padding: 50px 0;
 }
+
 .footer-logo img {
     filter: invert(64%) sepia(9%) saturate(2813%) hue-rotate(118deg) brightness(94%) contrast(79%);
 }
+
 .footer-nav-list {
     display: flex;
     gap: 30px;
     margin-top: 30px;
     margin-bottom: 60px;
 }
-.footer-nav-list li a{
+
+.footer-nav-list li a {
     font-family: 'Barlow', sans-serif;
     color: hsl(168, 34%, 41%);
     font-size: 14px;
 }
+
 .footer-social-icons {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
+
 /*! footer end */
+
+/*! responsive start */
+@media (max-width: 1024px) {
+    .section-wrapper {
+        height: 500px;
+    }
+
+    .item-wrapper {
+        width: 348px;
+        gap: 20px;
+    }
+
+    .section-item .title {
+        font-size: 30px;
+    }
+
+    .section-item .description {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+/*! responsive end */
