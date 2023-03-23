@@ -66,8 +66,15 @@ header {
     color: hsl(0, 0%, 100%);
     transition: 0.4s ease all;
 }
-
-.nav-list li a:hover,
+.nav-list li a:hover {
+    padding: 15px 25px;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: hsl(0, 0%, 100%) !important;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif !important;
+    border-radius: 25px;
+    
+}
 .active {
     padding: 15px 25px;
     background-color: hsl(0, 0%, 100%);
