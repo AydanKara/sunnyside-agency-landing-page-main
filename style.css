@@ -476,6 +476,15 @@ footer {
         width: 330px;
         line-height: 28px;
     }
+    .testimonials-container {
+        max-width: 330px;
+    }
+    .testimonials-title h2 {
+        font-size: 18px;
+    }
+    .testimonials-item .info {
+        font-size: 18px;
+    }
 }
 
 /*! responsive end */
