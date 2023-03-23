@@ -458,30 +458,38 @@ footer {
         flex: 50%;
     }
 }
+
 @media (max-width: 479px) {
     .section-wrapper {
         height: 1000px;
     }
+
     .item-wrapper {
         width: 330px;
     }
+
     .section-item .title {
         font-size: 36px;
     }
+
     .section-item .description {
         font-size: 18px;
         line-height: 32px;
     }
+
     .section-graphic-photography p {
         width: 330px;
         line-height: 28px;
     }
+
     .testimonials-container {
         max-width: 330px;
     }
+
     .testimonials-title h2 {
         font-size: 18px;
     }
+
     .testimonials-item .info {
         font-size: 18px;
     }
