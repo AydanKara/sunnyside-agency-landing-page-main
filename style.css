@@ -68,6 +68,7 @@ header {
     color: hsl(0, 0%, 100%);
     transition: 0.4s ease all;
 }
+
 .nav-list li a:hover {
     padding: 15px 25px;
     background-color: rgba(255, 255, 255, 0.4);
@@ -75,8 +76,8 @@ header {
     text-transform: uppercase;
     font-family: 'Fraunces', serif !important;
     border-radius: 25px;
-    
 }
+
 .active {
     padding: 15px 25px;
     background-color: hsl(0, 0%, 100%);
@@ -84,6 +85,17 @@ header {
     text-transform: uppercase;
     font-family: 'Fraunces', serif !important;
     border-radius: 25px;
+}
+
+.menu-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-button i {
+    font-size: 38px;
+    color: hsl(0, 0%, 100%);
 }
 
 /*! header end */
@@ -339,6 +351,7 @@ footer {
     color: hsl(168, 34%, 41%);
     font-size: 14px;
 }
+
 .footer-nav-list li a:hover {
     color: hsl(0, 0%, 100%);
 }
@@ -349,10 +362,12 @@ footer {
     align-items: center;
     gap: 20px;
 }
+
 .footer-social-icons i {
     font-size: 22px;
     color: hsl(168, 34%, 30%);
 }
+
 .footer-social-icons i:hover {
     color: hsl(0, 0%, 100%);
 }
@@ -381,8 +396,36 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .navigation {
-        display: none;
+    header .navigation {
+        position: absolute;
+        top: 80px;
+        background-color: #fff;
+        width: 85%;
+    }
+
+    .navigation {}
+
+    .nav-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin: 60px 0;
+    }
+
+    .nav-list li a {
+        color: hsl(213, 9%, 39%);
+        font-size: 18px;
+    }
+
+    .nav-list li a:hover {
+        padding: 15px 25px;
+        background-color: hsl(51, 100%, 49%);
+        color: #000 !important;
+    }
+
+    .active {
+        background-color: hsl(51, 100%, 49%);
     }
 
     .section-wrapper {
