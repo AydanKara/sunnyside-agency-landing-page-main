@@ -398,19 +398,28 @@ footer {
 @media (max-width: 768px) {
     header .navigation {
         position: absolute;
-        top: 80px;
+        top: 100px;
         background-color: #fff;
         width: 85%;
     }
 
-    .navigation {}
-
     .nav-list {
+        position: relative;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 40px;
         margin: 60px 0;
+    }
+
+    header .triangle {
+        position: absolute;
+        top: -90px;
+        right: 0;
+        width: 0;
+        height: 0;
+        border-bottom: 30px solid #fff;
+        border-left: 30px solid transparent;
     }
 
     .nav-list li a {
