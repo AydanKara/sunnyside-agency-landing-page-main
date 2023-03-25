@@ -88,7 +88,7 @@ header {
 }
 
 .menu-button {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -396,11 +396,34 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .menu-button {
+        display: flex;
+    }
+
+    .menu-button .bi-x-lg {
+        display: none;
+    }
+
+    .bi.bi-x-lg {
+        animation: unset;
+    }
+
+    @keyframes animate {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
     header .navigation {
         position: absolute;
         top: 100px;
         background-color: #fff;
         width: 85%;
+        display: none;
     }
 
     .nav-list {
