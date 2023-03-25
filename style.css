@@ -553,6 +553,12 @@ footer {
     }
 }
 
+@media (min-width: 768px) {
+    header .navigation {
+        display:block !important;
+    }
+}
+
 @media (max-width: 479px) {
     .section-wrapper {
         height: 1000px;
