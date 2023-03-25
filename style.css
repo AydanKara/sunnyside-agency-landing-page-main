@@ -383,16 +383,20 @@ footer {
     letter-spacing: 3px;
     color: hsl(168, 34%, 41%);
 }
-.footer > p > a {
+
+.footer>p>a {
     color: hsl(169, 33%, 32%);
 }
-.footer > p > a:hover {
+
+.footer>p>a:hover {
     color: hsl(0, 0%, 100%);
     text-decoration: underline;
 }
-.footer > p > strong {
+
+.footer>p>strong {
     color: hsl(169, 33%, 32%);
 }
+
 .footer .icons i {
     margin: 3px;
     font-size: 20px;
@@ -582,10 +586,12 @@ footer {
     .gallery-container .gallery {
         flex: 50%;
     }
+
     .footer {
         flex-direction: column;
         line-height: 25px;
     }
+
     .footer p {
         font-size: 12px;
     }
