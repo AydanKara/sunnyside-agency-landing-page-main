@@ -332,7 +332,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 25px;
 }
 
 .footer-logo img {
@@ -369,6 +370,35 @@ footer {
 }
 
 .footer-social-icons i:hover {
+    color: hsl(0, 0%, 100%);
+}
+
+.footer {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: hsl(168, 34%, 41%);
+}
+.footer > p > a {
+    color: hsl(169, 33%, 32%);
+}
+.footer > p > a:hover {
+    color: hsl(0, 0%, 100%);
+    text-decoration: underline;
+}
+.footer > p > strong {
+    color: hsl(169, 33%, 32%);
+}
+.footer .icons i {
+    margin: 3px;
+    font-size: 20px;
+    color: hsl(169, 33%, 32%);
+}
+
+.footer .icons i:hover {
     color: hsl(0, 0%, 100%);
 }
 
@@ -550,6 +580,13 @@ footer {
 
     .gallery-container .gallery {
         flex: 50%;
+    }
+    .footer {
+        flex-direction: column;
+        line-height: 25px;
+    }
+    .footer p {
+        font-size: 12px;
     }
 }
 
