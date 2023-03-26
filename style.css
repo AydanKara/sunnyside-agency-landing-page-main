@@ -139,7 +139,7 @@ header {
 .section-wrapper {
     display: flex;
     flex-wrap: wrap;
-    height: 550px;
+    height: 580px;
 }
 
 .section-item {
@@ -245,7 +245,7 @@ header {
 
 /*! section-testimonials start */
 .testimonials {
-    margin: 110px 0;
+    margin: 130px 0;
 }
 
 .testimonials-container {
