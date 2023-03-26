@@ -459,6 +459,7 @@ footer {
         background-color: #fff;
         width: 85%;
         display: none;
+        box-shadow: 0px 3px 20px 0px rgba(0,0,0,0.81);
     }
 
     .nav-list {
